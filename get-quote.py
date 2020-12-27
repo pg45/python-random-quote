@@ -8,10 +8,10 @@ def primary():
   f.close()
 
   print(quotes)
-  print(type(quotes))
   last = 13
   rnd = random.randint(0, last)
-  print(quotes[rnd])
+  quotes = quotes + ["some more text"]
+  print(quotes[14])
 
 if __name__== "__main__":
   primary()
